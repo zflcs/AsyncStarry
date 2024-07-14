@@ -145,7 +145,6 @@ dependencies = [
 [[package]]
 name = "arceos_api"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/arceos_api.git#fc77e8d99632a8d89fd10481a74186891f2fa1f2"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -188,7 +187,6 @@ dependencies = [
 [[package]]
 name = "arch_boot"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/arch_boot.git#e6c5ebc7b86222df161ef81c3fd49272b1b3bac1"
 dependencies = [
  "aarch64-cpu",
  "axconfig",
@@ -371,7 +369,6 @@ dependencies = [
 [[package]]
 name = "axhal"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axhal.git#112ee12352d3cf528089f16fbf79d8089e624d14"
 dependencies = [
  "aarch64-cpu",
  "arm_gic",
@@ -505,7 +502,6 @@ dependencies = [
 [[package]]
 name = "axruntime"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axruntime.git#c38b818497359a78f6cf808c13edfc019835b18a"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -550,7 +546,6 @@ dependencies = [
 [[package]]
 name = "axstd"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axstd.git#0b0595b3f24a68009a47d120e5991b89a6c9f2d3"
 dependencies = [
  "arceos_api",
  "arch_boot",
@@ -574,7 +569,6 @@ dependencies = [
 [[package]]
 name = "axtask"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axtask.git#58b1e4c07348ac8e67aec952f2ef12d100732dc6"
 dependencies = [
  "axconfig",
  "axhal",
@@ -597,7 +591,6 @@ dependencies = [
 [[package]]
 name = "axtrap"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axtrap.git#ae5b2813145842029c354829e19afe8a8deb4256"
 dependencies = [
  "aarch64-cpu",
  "axhal",
@@ -1562,7 +1555,6 @@ dependencies = [
 [[package]]
 name = "taskctx"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/taskctx.git#f8899f7ce2738c4d38ccb47e534e4013331019bc"
 dependencies = [
  "aarch64-cpu",
  "cfg-if",

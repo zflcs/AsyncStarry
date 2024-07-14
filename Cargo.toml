@@ -1,4 +1,26 @@
-[patch]
+[patch."https://github.com/Starry-OS/arceos_api.git".arceos_api]
+path = "crates/arceos_api"
+
+[patch."https://github.com/Starry-OS/arch_boot.git".arch_boot]
+path = "crates/arch_boot"
+
+[patch."https://github.com/Starry-OS/axhal.git".axhal]
+path = "crates/axhal"
+
+[patch."https://github.com/Starry-OS/axruntime.git".axruntime]
+path = "crates/axruntime"
+
+[patch."https://github.com/Starry-OS/axstd.git".axstd]
+path = "crates/axstd"
+
+[patch."https://github.com/Starry-OS/axtask.git".axtask]
+path = "crates/axtask"
+
+[patch."https://github.com/Starry-OS/axtrap.git".axtrap]
+path = "crates/axtrap"
+
+[patch."https://github.com/Starry-OS/taskctx.git".taskctx]
+path = "crates/taskctx"
 
 [profile.dev]
 lto = true

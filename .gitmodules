@@ -1,3 +1,27 @@
 [submodule "testcases"]
 	path = testcases
 	url = https://github.com/Starry-OS/testcases.git
+[submodule "crates/taskctx"]
+	path = crates/taskctx
+	url = https://github.com/AsyncModules/taskctx.git
+[submodule "crates/axtask"]
+	path = crates/axtask
+	url = https://github.com/AsyncModules/axtask.git
+[submodule "crates/arch_boot"]
+	path = crates/arch_boot
+	url = https://github.com/AsyncModules/arch_boot.git
+[submodule "crates/axtrap"]
+	path = crates/axtrap
+	url = https://github.com/AsyncModules/axtrap.git
+[submodule "crates/axhal"]
+	path = crates/axhal
+	url = https://github.com/AsyncModules/axhal.git
+[submodule "crates/arceos_api"]
+	path = crates/arceos_api
+	url = https://github.com/AsyncModules/arceos_api.git
+[submodule "crates/axstd"]
+	path = crates/axstd
+	url = https://github.com/AsyncModules/axstd.git
+[submodule "crates/axruntime"]
+	path = crates/axruntime
+	url = https://github.com/AsyncModules/axruntime.git
