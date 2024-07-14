@@ -25,3 +25,6 @@
 [submodule "crates/axruntime"]
 	path = crates/axruntime
 	url = https://github.com/AsyncModules/axruntime.git
+[submodule "crates/axprocess"]
+	path = crates/axprocess
+	url = https://github.com/AsyncModules/axprocess.git

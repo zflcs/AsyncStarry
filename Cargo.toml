@@ -7,6 +7,9 @@ path = "crates/arch_boot"
 [patch."https://github.com/Starry-OS/axhal.git".axhal]
 path = "crates/axhal"
 
+[patch."https://github.com/Starry-OS/axprocess.git".axprocess]
+path = "crates/axprocess"
+
 [patch."https://github.com/Starry-OS/axruntime.git".axruntime]
 path = "crates/axruntime"
 

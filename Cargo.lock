@@ -477,7 +477,6 @@ dependencies = [
 [[package]]
 name = "axprocess"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axprocess.git#33bfcda7a1bfa2c3cb682d2fc5f05089032bb61f"
 dependencies = [
  "axalloc",
  "axconfig",
