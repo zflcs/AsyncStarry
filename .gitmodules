@@ -28,3 +28,6 @@
 [submodule "crates/axprocess"]
 	path = crates/axprocess
 	url = https://github.com/AsyncModules/axprocess.git
+[submodule "crates/axfeat"]
+	path = crates/axfeat
+	url = https://github.com/AsyncModules/axfeat.git

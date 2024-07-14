@@ -4,6 +4,9 @@ path = "crates/arceos_api"
 [patch."https://github.com/Starry-OS/arch_boot.git".arch_boot]
 path = "crates/arch_boot"
 
+[patch."https://github.com/Starry-OS/axfeat.git".axfeat]
+path = "crates/axfeat"
+
 [patch."https://github.com/Starry-OS/axhal.git".axhal]
 path = "crates/axhal"
 
