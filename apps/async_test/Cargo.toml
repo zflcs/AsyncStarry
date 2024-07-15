@@ -5,4 +5,4 @@ edition = "2021"
 authors = ["Fangliang Zhao <1491657576@qq.com>"]
 
 [dependencies]
-axstd = { git = "https://github.com/Starry-OS/axstd.git", features = ["async", "multitask"], optional = true }
+axstd = { git = "https://github.com/Starry-OS/axstd.git", features = ["async", "multitask", "alloc", "irq"], optional = true }
