@@ -31,3 +31,6 @@
 [submodule "crates/axfeat"]
 	path = crates/axfeat
 	url = https://github.com/AsyncModules/axfeat.git
+[submodule "crates/axasync_macros"]
+	path = crates/axasync_macros
+	url = https://github.com/AsyncModules/axasync_macros.git
