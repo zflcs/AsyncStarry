@@ -7,11 +7,19 @@ extern crate axstd as std;
 use std::println;
 use std::thread;
 
+#[cfg_attr(feature = "axstd", axstd::async_main)]
 #[cfg_attr(feature = "axstd", no_mangle)]
-fn main() {
+async fn main() -> i32 {
     println!("Hello, world!");
-    thread::spawn(move || async {
+    let a = thread::spawn(move || async {
         println!("Hello from a thread!");
-    });
-    loop {}
+        32
+    }).join().await;
+    println!("a = {}", a.unwrap());
+    let a = thread::spawn(move || async {
+        println!("Hello from a thread!");
+        32
+    }).join().await;
+    println!("a = {}", a.unwrap());
+    0
 }

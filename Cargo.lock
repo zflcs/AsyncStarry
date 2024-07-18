@@ -252,6 +252,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "axasync_macros"
+version = "0.1.0"
+dependencies = [
+ "quote",
+ "syn 2.0.71",
+]
+
+[[package]]
+name = "axasync_macros"
+version = "0.1.0"
+source = "git+https://github.com/AsyncModules/axasync_macros.git#9aa95a98ae834512ffd5a8bff09257f646e40929"
+dependencies = [
+ "quote",
+ "syn 2.0.71",
+]
+
+[[package]]
 name = "axconfig"
 version = "0.1.0"
 source = "git+https://github.com/Starry-OS/axconfig.git#80213038e457bb03e4ac250351d38f58c30debc8"
@@ -556,6 +573,7 @@ version = "0.1.0"
 dependencies = [
  "arceos_api",
  "arch_boot",
+ "axasync_macros 0.1.0 (git+https://github.com/AsyncModules/axasync_macros.git)",
  "axerrno",
  "axfeat",
  "axio",
