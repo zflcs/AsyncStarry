@@ -230,6 +230,7 @@ name = "async_test"
 version = "0.1.0"
 dependencies = [
  "axstd",
+ "rand",
 ]
 
 [[package]]
@@ -262,7 +263,7 @@ dependencies = [
 [[package]]
 name = "axasync_macros"
 version = "0.1.0"
-source = "git+https://github.com/AsyncModules/axasync_macros.git#9aa95a98ae834512ffd5a8bff09257f646e40929"
+source = "git+https://github.com/AsyncModules/axasync_macros.git#f46bd3895af132acd8b1625ecda9091b50798354"
 dependencies = [
  "quote",
  "syn 2.0.71",
