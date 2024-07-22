@@ -226,6 +226,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "async_monolithic"
+version = "0.1.0"
+dependencies = [
+ "axstarry",
+ "axstd",
+]
+
+[[package]]
 name = "async_test"
 version = "0.1.0"
 dependencies = [
@@ -250,14 +258,6 @@ dependencies = [
  "log",
  "memory_addr",
  "spinlock",
-]
-
-[[package]]
-name = "axasync_macros"
-version = "0.1.0"
-dependencies = [
- "quote",
- "syn 2.0.71",
 ]
 
 [[package]]
@@ -559,7 +559,6 @@ dependencies = [
 [[package]]
 name = "axstarry"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axstarry.git#a7f3b2b7be95c4029b418650265c3a07420e8747"
 dependencies = [
  "arch_boot",
  "axfeat",
@@ -574,7 +573,7 @@ version = "0.1.0"
 dependencies = [
  "arceos_api",
  "arch_boot",
- "axasync_macros 0.1.0 (git+https://github.com/AsyncModules/axasync_macros.git)",
+ "axasync_macros",
  "axerrno",
  "axfeat",
  "axio",

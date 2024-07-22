@@ -16,6 +16,9 @@ path = "crates/axprocess"
 [patch."https://github.com/Starry-OS/axruntime.git".axruntime]
 path = "crates/axruntime"
 
+[patch."https://github.com/Starry-OS/axstarry.git".axstarry]
+path = "crates/axstarry"
+
 [patch."https://github.com/Starry-OS/axstd.git".axstd]
 path = "crates/axstd"
 
@@ -35,5 +38,5 @@ lto = true
 lto = true
 
 [workspace]
-members = ["apps/display", "apps/exception", "apps/helloworld", "apps/memtest", "apps/fs/shell", "apps/net/echoserver", "apps/net/httpclient", "apps/net/httpserver", "apps/net/udpserver", "apps/net/bwbench", "apps/task/parallel", "apps/task/sleep", "apps/task/yield", "apps/task/priority", "apps/task/tls", "apps/monolithic_userboot", "tools/axlibc", "apps/async_test", "crates/axasync_macros"]
+members = ["apps/display", "apps/exception", "apps/helloworld", "apps/memtest", "apps/fs/shell", "apps/net/echoserver", "apps/net/httpclient", "apps/net/httpserver", "apps/net/udpserver", "apps/net/bwbench", "apps/task/parallel", "apps/task/sleep", "apps/task/yield", "apps/task/priority", "apps/task/tls", "apps/monolithic_userboot", "tools/axlibc", "apps/async_test", "apps/async_monolithic"]
 resolver = "2"

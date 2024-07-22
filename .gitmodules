@@ -34,3 +34,6 @@
 [submodule "crates/axasync_macros"]
 	path = crates/axasync_macros
 	url = https://github.com/AsyncModules/axasync_macros.git
+[submodule "crates/axstarry"]
+	path = crates/axstarry
+	url = https://github.com/AsyncModules/axstarry.git
