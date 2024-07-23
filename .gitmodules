@@ -37,3 +37,9 @@
 [submodule "crates/axstarry"]
 	path = crates/axstarry
 	url = https://github.com/AsyncModules/axstarry.git
+[submodule "crates/axnet"]
+	path = crates/axnet
+	url = https://github.com/AsyncModules/axnet.git
+[submodule "crates/linux_syscall_api"]
+	path = crates/linux_syscall_api
+	url = https://github.com/AsyncModules/linux_syscall_api.git
