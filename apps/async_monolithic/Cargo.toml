@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 axstd = { git = "https://github.com/Starry-OS/axstd.git", features = ["async", "multitask", "alloc"] }
-axstarry = { git = "https://github.com/Starry-OS/axstarry.git" }
+axstarry = { git = "https://github.com/Starry-OS/axstarry.git", features = ["async"] }
