@@ -10,6 +10,9 @@ path = "crates/axfeat"
 [patch."https://github.com/Starry-OS/axhal.git".axhal]
 path = "crates/axhal"
 
+[patch."https://github.com/Starry-OS/axnet.git".axnet]
+path = "crates/axnet"
+
 [patch."https://github.com/Starry-OS/axprocess.git".axprocess]
 path = "crates/axprocess"
 
@@ -27,6 +30,9 @@ path = "crates/axtask"
 
 [patch."https://github.com/Starry-OS/axtrap.git".axtrap]
 path = "crates/axtrap"
+
+[patch."https://github.com/Starry-OS/linux_syscall_api.git".linux_syscall_api]
+path = "crates/linux_syscall_api"
 
 [patch."https://github.com/Starry-OS/taskctx.git".taskctx]
 path = "crates/taskctx"
