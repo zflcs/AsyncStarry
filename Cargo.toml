@@ -44,5 +44,5 @@ lto = true
 lto = true
 
 [workspace]
-members = ["apps/display", "apps/exception", "apps/helloworld", "apps/memtest", "apps/fs/shell", "apps/net/echoserver", "apps/net/httpclient", "apps/net/httpserver", "apps/net/udpserver", "apps/net/bwbench", "apps/task/parallel", "apps/task/sleep", "apps/task/yield", "apps/task/priority", "apps/task/tls", "apps/monolithic_userboot", "tools/axlibc", "apps/async_test", "apps/async_monolithic"]
+members = ["apps/display", "apps/exception", "apps/helloworld", "apps/memtest", "apps/fs/shell", "apps/net/echoserver", "apps/net/httpclient", "apps/net/httpserver", "apps/net/udpserver", "apps/net/bwbench", "apps/task/parallel", "apps/task/sleep", "apps/task/yield", "apps/task/priority", "apps/task/tls", "apps/monolithic_userboot", "tools/axlibc", "apps/async_test", "apps/async_monolithic", "apps/yield_test"]
 resolver = "2"

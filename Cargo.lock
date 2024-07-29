@@ -1871,6 +1871,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "yield_test"
+version = "0.1.0"
+dependencies = [
+ "axstd",
+]
+
+[[package]]
 name = "zero"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
