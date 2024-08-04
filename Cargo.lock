@@ -399,7 +399,6 @@ dependencies = [
 [[package]]
 name = "axhal"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axhal.git#769caa8b8749b324a1370a8da11c0e6a7597eedf"
 dependencies = [
  "aarch64-cpu",
  "arm_gic",
@@ -535,7 +534,6 @@ dependencies = [
 [[package]]
 name = "axruntime"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axruntime.git#3ff4e76febe8b92ef6f502b1260d05f3fdc498a4"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -605,7 +603,6 @@ dependencies = [
 [[package]]
 name = "axtask"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axtask.git#4ae6b15a574b5351ac3843d6ef97843164298341"
 dependencies = [
  "axconfig",
  "axhal",
@@ -628,7 +625,6 @@ dependencies = [
 [[package]]
 name = "axtrap"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axtrap.git#f2529e64355db2c4df9561fd6603bf9eb9325cc4"
 dependencies = [
  "aarch64-cpu",
  "axhal",
@@ -1667,7 +1663,6 @@ dependencies = [
 [[package]]
 name = "taskctx"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/taskctx.git#86561d9659f294328350d0235e8f5d285fd6e766"
 dependencies = [
  "aarch64-cpu",
  "cfg-if",
