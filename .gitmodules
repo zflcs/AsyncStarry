@@ -5,3 +5,19 @@
 	path = crates/taskctx
 	url = https://github.com/AsyncModules/taskctx.git
 	branch = dev
+[submodule "crates/axhal"]
+	path = crates/axhal
+	url = https://github.com/AsyncModules/axhal.git
+	branch = dev
+[submodule "crates/axruntime"]
+	path = crates/axruntime
+	url = https://github.com/AsyncModules/axruntime.git
+	branch = dev
+[submodule "crates/axtask"]
+	path = crates/axtask
+	url = https://github.com/AsyncModules/axtask.git
+	branch = dev
+[submodule "crates/axtrap"]
+	path = crates/axtrap
+	url = https://github.com/AsyncModules/axtrap.git
+	branch = dev
