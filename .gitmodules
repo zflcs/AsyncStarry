@@ -21,3 +21,7 @@
 	path = crates/axtrap
 	url = https://github.com/AsyncModules/axtrap.git
 	branch = dev
+[submodule "crates/axprocess"]
+	path = crates/axprocess
+	url = https://github.com/AsyncModules/axprocess.git
+	branch = dev
