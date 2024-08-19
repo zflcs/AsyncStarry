@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-axstd = { git = "https://github.com/Starry-OS/axstd.git", features = ["alloc", "multitask", "irq"], optional = true }
+axstd = { git = "https://github.com/Starry-OS/axstd.git", features = ["alloc", "multitask", "irq", "paging"], optional = true }
