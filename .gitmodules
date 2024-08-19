@@ -25,3 +25,7 @@
 	path = crates/axprocess
 	url = https://github.com/AsyncModules/axprocess.git
 	branch = dev
+[submodule "crates/scheduler"]
+	path = crates/scheduler
+	url = https://github.com/AsyncModules/scheduler.git
+	branch = moic
