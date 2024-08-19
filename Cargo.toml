@@ -13,6 +13,9 @@ path = "crates/axtask"
 [patch."https://github.com/Starry-OS/axtrap.git".axtrap]
 path = "crates/axtrap"
 
+[patch."https://github.com/Starry-OS/scheduler.git".scheduler]
+path = "crates/scheduler"
+
 [patch."https://github.com/Starry-OS/taskctx.git".taskctx]
 path = "crates/taskctx"
 
