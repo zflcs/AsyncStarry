@@ -1,6 +1,9 @@
 [patch."https://github.com/Starry-OS/axhal.git".axhal]
 path = "crates/axhal"
 
+[patch."https://github.com/Starry-OS/axmem.git".axmem]
+path = "crates/axmem"
+
 [patch."https://github.com/Starry-OS/axprocess.git".axprocess]
 path = "crates/axprocess"
 

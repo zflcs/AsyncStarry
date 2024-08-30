@@ -258,6 +258,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "axbacktrace"
+version = "0.1.0"
+source = "git+https://github.com/kern-crates/axbacktrace.git#c0371ca8ef4a06ff2e21428b33aab51bcbdc16fa"
+dependencies = [
+ "cfg-if",
+ "log",
+]
+
+[[package]]
 name = "axconfig"
 version = "0.1.0"
 source = "git+https://github.com/Starry-OS/axconfig.git#ecfc417015a36450abb514092fb8c811512205ea"
@@ -468,7 +477,6 @@ dependencies = [
 [[package]]
 name = "axmem"
 version = "0.1.0"
-source = "git+https://github.com/Starry-OS/axmem.git#2e66a8ad1a4f14f629d2a07e67abcf21f5216012"
 dependencies = [
  "axalloc",
  "axconfig",
@@ -604,6 +612,7 @@ dependencies = [
 name = "axtask"
 version = "0.1.0"
 dependencies = [
+ "axbacktrace",
  "axconfig",
  "axhal",
  "axlog",
